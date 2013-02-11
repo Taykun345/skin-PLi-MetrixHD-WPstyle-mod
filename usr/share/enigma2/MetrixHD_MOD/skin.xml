@@ -169,7 +169,7 @@
       <convert type="ServiceInfo">SubservicesAvailable</convert>
       <convert type="ConditionalShowHide" />
     </widget>
-    <widget source="session.RecordState" render="Pixmap" pixmap="MetrixHD_MOD/icons/ico_rec_on.png" position="923,544" size="100,30" zPosition="2" alphatest="blend">
+    <widget source="session.RecordState" render="Pixmap" pixmap="MetrixHD_MOD/icons/ico_rec_on.png" position="1071,536" size="22,22" zPosition="2" alphatest="blend">
       <convert type="ConditionalShowHide">Blink</convert>
     </widget>
     <widget source="session.CurrentService" render="Picon" position="32,545" zPosition="4" size="220,132" transparent="1" alphatest="blend">
@@ -368,7 +368,7 @@
       <convert type="ServiceInfo">SubservicesAvailable</convert>
       <convert type="ConditionalShowHide" />
     </widget>
-    <widget source="session.RecordState" render="Pixmap" pixmap="MetrixHD_MOD/icons/ico_rec_on.png" position="923,544" size="100,30" zPosition="2" alphatest="blend">
+    <widget source="session.RecordState" render="Pixmap" pixmap="MetrixHD_MOD/icons/ico_rec_on.png" position="1071,536" size="22,22" zPosition="2" alphatest="blend">
       <convert type="ConditionalShowHide">Blink</convert>
     </widget>
     <widget source="session.CurrentService" render="Picon" position="32,545" size="220,132" zPosition="10" backgroundColor="background20" transparent="0" alphatest="blend">
@@ -1819,8 +1819,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2,orgpos.y()))
   <screen name="MovieContextMenu" position="880,0" size="400,723" title="Movielist menu" flags="wfNoBorder">
     <ePixmap position="0,0" zPosition="-10" size="400,723" pixmap="MetrixHD_MOD/menu/back1.png" name="#" />
     <widget source="Title" render="Label" position="12,44" size="800,43" font="Regular;35" backgroundColor="background20" transparent="1" />
-    <eLabel text="Movielist menu" position="31,115" size="700,28" font="Regular;23" backgroundColor="background20" transparent="1" />
-    <widget name="menu" position="14,196" size="350,450" zPosition="3" itemHeight="30" scrollbarMode="showOnDemand" enableWrapAround="1" transparent="1" />
+    <widget name="menu" position="14,116" size="372,530" zPosition="3" itemHeight="30" scrollbarMode="showOnDemand" enableWrapAround="1" transparent="1" />
   </screen>
   <screen name="MoviePlayer" position="0,0" size="1283,723" title="InfoBar" backgroundColor="transparent" flags="wfNoBorder">
     <ePixmap position="0,570" zPosition="-2" size="1281,150" pixmap="MetrixHD_MOD/back.png" />
@@ -1850,7 +1849,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2,orgpos.y()))
     <widget source="session.CurrentService" render="Label" font="RegularLight; 20" position="1146,576" size="55,25" halign="left" foregroundColor="grey" backgroundColor="background20" transparent="1">
       <convert type="ServiceInfo">VideoHeight</convert>
     </widget>
-    <widget source="session.RecordState" render="Pixmap" pixmap="MetrixHD_MOD/icons/ico_rec_on.png" position="57,40" size="74,23" zPosition="2" alphatest="blend">
+    <widget source="session.RecordState" render="Pixmap" pixmap="MetrixHD_MOD/icons/ico_rec_on.png" position="1204,579" size="22,22" zPosition="2" alphatest="blend">
       <convert type="ConditionalShowHide">Blink</convert>
     </widget>
     <widget source="session.CurrentService" render="Label" position="40,655" size="100,28" font="Regular;24" halign="right" valign="center" backgroundColor="background20" shadowColor="black" shadowOffset="-1,-1" transparent="1">

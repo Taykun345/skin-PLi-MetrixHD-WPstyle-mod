@@ -1250,13 +1250,13 @@
     </widget>
     <eLabel name="new eLabel" position="20,20" zPosition="-11" size="738,620" backgroundColor="background20" />
     <widget source="ServiceEvent" render="Label" position="783,568" size="470,32" halign="left" valign="center" foregroundColor="grey" backgroundColor="background20" transparent="1" noWrap="1" font="Regular; 25">
-  <convert type="MetrixNextEvents">Event2,noDuration</convert>
-</widget>
-    <widget source="ServiceEvent" render="Label" position="783,533" size="470,32" halign="left" valign="center" foregroundColor="grey" backgroundColor="background20" transparent="1" noWrap="1" font="Regular; 25">
-  <convert type="MetrixNextEvents">Event1,noDuration</convert>
-</widget>
-    <widget source="ServiceEvent" render="Label" position="783,603" size="470,32" halign="left" valign="center" foregroundColor="unececec" backgroundColor="background20" transparent="1" noWrap="1" font="Regular; 25">
-  <convert type="MetrixNextEvents">PrimeTime,noDuration</convert>
+      <convert type="MetrixNextEvents">Event2,noDuration</convert>
+    </widget>
+    <widget source="ServiceEvent" render="Label" position="783,533" size="470,32" halign="left" valign="center" foregroundColor="unececec" backgroundColor="background20" transparent="1" noWrap="1" font="Regular; 25">
+      <convert type="MetrixNextEvents">Event1,noDuration</convert>
+    </widget>
+    <widget source="ServiceEvent" render="Label" position="783,603" size="470,32" halign="left" valign="center" foregroundColor="grey" backgroundColor="background20" transparent="1" noWrap="1" font="Regular; 25" name="rey">
+  <convert type="MetrixNextEvents">Event3,noDuration</convert>
 </widget>
   </screen>
   <screen name="ChannelSelectionRadio" position="0,0" size="1280,720" title="Radio Channel Selection" flags="wfNoBorder" backgroundColor="background90">

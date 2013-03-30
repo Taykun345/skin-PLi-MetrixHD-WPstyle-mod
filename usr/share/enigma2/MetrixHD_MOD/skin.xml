@@ -176,10 +176,10 @@
     <widget source="session.CurrentService" render="Picon" position="32,545" zPosition="4" size="220,132" transparent="1" alphatest="blend">
       <convert type="ServiceName">Reference</convert>
     </widget>
-    <eLabel text="A" position="875,657" zPosition="1" size="20,26" font="Regular; 20" halign="center" foregroundColor="grey" backgroundColor="background20" transparent="1" valign="center" />
-    <eLabel text="B" position="895,657" zPosition="1" size="20,26" font="Regular; 20" halign="center" foregroundColor="grey" backgroundColor="background20" transparent="1" valign="center" />
-    <eLabel text="C" position="915,657" zPosition="1" size="20,26" font="Regular; 20" halign="center" foregroundColor="grey" backgroundColor="background20" transparent="1" valign="center" />
-    <eLabel text="D" position="935,657" zPosition="1" size="20,26" font="Regular; 20" halign="center" foregroundColor="grey" backgroundColor="background20" transparent="1" valign="center" />
+    <eLabel text="A" position="875,657" zPosition="1" size="20,26" font="Regular; 20" halign="center" foregroundColor="un777777" backgroundColor="background20" transparent="1" valign="center" />
+    <eLabel text="B" position="895,657" zPosition="1" size="20,26" font="Regular; 20" halign="center" foregroundColor="un777777" backgroundColor="background20" transparent="1" valign="center" />
+    <eLabel text="C" position="915,657" zPosition="1" size="20,26" font="Regular; 20" halign="center" foregroundColor="un777777" backgroundColor="background20" transparent="1" valign="center" />
+    <eLabel text="D" position="935,657" zPosition="1" size="20,26" font="Regular; 20" halign="center" foregroundColor="un777777" backgroundColor="background20" transparent="1" valign="center" />
     <widget source="session.TunerInfo" render="FixedLabel" text="A" position="875,657" zPosition="2" size="20,26" font="Regular; 20" halign="center" backgroundColor="background20" transparent="1" valign="center">
       <convert type="TunerInfo">TunerUseMask</convert>
       <convert type="ValueBitTest">1</convert>
@@ -440,10 +440,10 @@
     <widget source="session.RecordState" render="Pixmap" pixmap="MetrixHD_MOD/icons/ico_rec_on.png" position="1071,536" size="22,22" zPosition="2" alphatest="blend">
       <convert type="ConditionalShowHide">Blink</convert>
     </widget>
-    <eLabel text="A" position="875,657" zPosition="1" size="20,26" font="Regular; 20" halign="center" foregroundColor="grey" backgroundColor="background20" transparent="1" valign="center" />
-    <eLabel text="B" position="895,657" zPosition="1" size="20,26" font="Regular; 20" halign="center" foregroundColor="grey" backgroundColor="background20" transparent="1" valign="center" />
-    <eLabel text="C" position="915,657" zPosition="1" size="20,26" font="Regular; 20" halign="center" foregroundColor="grey" backgroundColor="background20" transparent="1" valign="center" />
-    <eLabel text="D" position="935,657" zPosition="1" size="20,26" font="Regular; 20" halign="center" foregroundColor="grey" backgroundColor="background20" transparent="1" valign="center" />
+    <eLabel text="A" position="875,657" zPosition="1" size="20,26" font="Regular; 20" halign="center" foregroundColor="un777777" backgroundColor="background20" transparent="1" valign="center" />
+    <eLabel text="B" position="895,657" zPosition="1" size="20,26" font="Regular; 20" halign="center" foregroundColor="un777777" backgroundColor="background20" transparent="1" valign="center" />
+    <eLabel text="C" position="915,657" zPosition="1" size="20,26" font="Regular; 20" halign="center" foregroundColor="un777777" backgroundColor="background20" transparent="1" valign="center" />
+    <eLabel text="D" position="935,657" zPosition="1" size="20,26" font="Regular; 20" halign="center" foregroundColor="un777777" backgroundColor="background20" transparent="1" valign="center" />
     <widget source="session.TunerInfo" render="FixedLabel" text="A" position="875,657" zPosition="2" size="20,26" font="Regular; 20" halign="center" backgroundColor="background20" transparent="1" valign="center">
       <convert type="TunerInfo">TunerUseMask</convert>
       <convert type="ValueBitTest">1</convert>
@@ -2348,7 +2348,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2,orgpos.y()))
     <ePixmap position="920,230" size="256,256" zPosition="2" pixmap="MetrixHD_MOD/icons/setup.png" transparent="1" alphatest="blend" />
   </screen>
   <screen name="NumberZap" position="center,center" size="334,296" title="QuickZap" flags="wfNoBorder" backgroundColor="background20">
-    <widget name="number" position="96,126" size="110,43" halign="center" font="Regular; 40" backgroundColor="background20" foregroundColor="metrixAccent" transparent="1" />
+    <widget name="number" position="96,125" size="110,43" halign="center" font="Regular; 40" backgroundColor="background20" foregroundColor="metrixAccent" transparent="1" />
     <widget name="servicename" position="3,236" size="327,41" backgroundColor="background20" transparent="1" font="Regular; 35" valign="center" halign="center" foregroundColor="grey" />
     <ePixmap name="new ePixmap" position="38,1" size="256,256" pixmap="MetrixHD_MOD/icons/tv.png" zPosition="-1" transparent="1" alphatest="blend" />
   </screen>

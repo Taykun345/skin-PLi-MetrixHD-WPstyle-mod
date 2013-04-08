@@ -2,9 +2,10 @@ MetrixHD Modification by Taykun345 for OpenPli images
 =================================================
 
 Skin Author: iMaxxx
-First modification: BiNiCKNiCH from gigablue-support.net
-OpenPli adaptation: Taykun345 & ckone from openpli.org
-Additional modifications: Area51 from et-view-support.com
-Some icons are made by ckone&area51
+Most of the modifications are done by Taykun345 from openpli.org -->
+Some parts are taken from other users who have also done some modifications:
+1. BiNiCKNiCH from gigablue-support.net 
+2. Area51 & IPMAN from et-view-support.com
+3. ckone & blzr from openpli.org
 
-Use only with XPicons (transparent light).
+Use only with XPicons (transparent light) for best results.

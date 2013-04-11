@@ -8,4 +8,4 @@ Some parts are taken from other users who have also done some modifications:
 2. Area51 & IPMAN from et-view-support.com
 3. ckone & blzr from openpli.org
 
-Use only with XPicons (transparent light) for best results.
+Use only with XPicons (transparent light) for best results. I recommend these ones: http://ocram.github.io/picons/downloads.html

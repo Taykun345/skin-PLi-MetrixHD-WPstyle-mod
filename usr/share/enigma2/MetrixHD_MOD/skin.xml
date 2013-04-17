@@ -545,10 +545,10 @@
   <screen name="PVRState" position="center,39" size="120,50" backgroundColor="background20" flags="wfNoBorder" borderWidth="1" borderColor="background20">
     <widget name="state" position="0,-312" size="120,50" transparent="1" font="Regular; 36" valign="center" halign="center" backgroundColor="background20" foregroundColor="metrixForeground" />
   </screen>
-<screen name="VideoMode" title="VideoMode" position="center,45" size="400,50" backgroundColor="background20" flags="wfNoBorder" borderWidth="1" borderColor="background20">
-<widget name="videomode" position="9,5" size="380,40" backgroundColor="background20" font="Regular;26" valign="center" halign="center" transparent="1">
-</widget>
-</screen> 
+  <screen name="VideoMode" title="VideoMode" position="center,45" size="400,50" backgroundColor="background20" flags="wfNoBorder" borderWidth="1" borderColor="background20">
+    <widget name="videomode" position="9,5" size="380,40" backgroundColor="background20" font="Regular;26" valign="center" halign="center" transparent="1">
+    </widget>
+  </screen>
   <screen name="Volume" position="49,39" size="322,72" title="Volume" backgroundColor="transparent2" flags="wfNoBorder" zPosition="-90">
     <ePixmap pixmap="MetrixHD_MOD/icons/sound/volume.png" position="1,1" size="320,70" backgroundColor="background20" zPosition="-11" />
     <eLabel position="70,36" size="170,1" backgroundColor="metrixAccent" foregroundColor="metrixAccent" zPosition="4" />
@@ -2073,12 +2073,12 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2,orgpos.y()))
     </widget>
     <widget name="menu" position="652,106" size="397,537" zPosition="3" itemHeight="35" scrollbarMode="showNever" enableWrapAround="1" transparent="1" selectionPixmap="MetrixHD_MOD/listSelection.png" alphatest="on" />
     <ePixmap position="306,123" size="256,256" pixmap="MetrixHD_MOD/icons/tv.png" transparent="1" alphatest="blend" />
-  <ePixmap pixmap="MetrixHD_MOD/buttons/yellow.png" position="217,0" size="30,40" alphatest="blend" />
+    <ePixmap pixmap="MetrixHD_MOD/buttons/yellow.png" position="217,0" size="30,40" alphatest="blend" />
     <ePixmap pixmap="MetrixHD_MOD/buttons/blue.png" position="434,0" size="30,40" alphatest="blend" />
     <widget name="key_yellow" position="258,10" size="160,30" zPosition="1" font="RegularLight; 22" halign="left" backgroundColor="background20" transparent="1" />
     <widget name="key_blue" position="472,10" size="160,30" zPosition="1" font="RegularLight; 22" halign="left" backgroundColor="background20" transparent="1" />
-<eLabel name="new eLabel" position="0,0" size="1280,50" zPosition="-11" backgroundColor="background20" />
-</screen>
+    <eLabel name="new eLabel" position="0,0" size="1280,50" zPosition="-11" backgroundColor="background20" />
+  </screen>
   <screen name="MovieBrowserConfiguration" position="center,center" size="1280,720" flags="wfNoBorder" backgroundColor="background90">
     <eLabel name="new eLabel" position="264,51" zPosition="-11" size="340,320" backgroundColor="background20" />
     <eLabel name="new eLabel" position="265,410" zPosition="-11" size="340,70" backgroundColor="background20" />
@@ -2652,7 +2652,6 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2,orgpos.y()))
     <ePixmap pixmap="MetrixHD_MOD/buttons/red.png" position="660,577" size="30,40" alphatest="blend" />
     <widget source="key_red" render="Label" position="700,583" size="240,24" zPosition="1" font="RegularLight;20" backgroundColor="background20" transparent="1" />
   </screen>
-  
   <screen name="Standby" position="0,0" size="1280,720" title="Standby" flags="wfNoBorder" backgroundColor="background40" />
   <screen name="SubservicesQuickzap" position="380,600" size="560,100" title="Subservices" backgroundColor="transparent" flags="wfNoBorder">
     <widget source="session.RecordState" render="Pixmap" pixmap="skin_default/icons/record.png" position="450,0" zPosition="2" size="14,14" alphatest="blend">
@@ -6463,4 +6462,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
       <convert type="ClockToText">Format:%A</convert>
     </widget>
   </screen>
+<screen name="Screensaver" position="0,0" size="1280,720" flags="wfNoBorder" backgroundColor="metrixPreBlack">
+  <widget name="picture" position="0,0" size="450,128" pixmap="MetrixHD_MOD/metrix.png" alphatest="blend" transparent="1" />
+</screen>
 </skin>

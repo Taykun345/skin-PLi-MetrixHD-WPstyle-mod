@@ -30,7 +30,7 @@ class MetrixCaidDisplay(Poll, Converter, object):
 		self.type = type
 		self.systemCaids = {
 			"26" : "BiSS",
-                        "01" : "SEC",
+            "01" : "SEC",
 			"06" : "IRD",
 			"17" : "BET",
 			"05" : "VIA",
